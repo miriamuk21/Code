@@ -356,6 +356,9 @@
     .lg\:hidden {
       display: none;
     }
+    .lg\:inline {
+      display: inline;
+    }
     .lg\:w-1\/2 {
       width: calc(1 / 2 * 100%);
     }
@@ -373,6 +376,10 @@
     }
     .xl\:max-w-lg {
       max-width: var(--container-lg);
+    }
+    .xl\:text-4xl {
+      font-size: var(--text-4xl);
+      line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
 }
